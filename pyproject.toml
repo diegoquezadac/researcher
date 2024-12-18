@@ -1,0 +1,12 @@
+[project]
+name = "researcher"
+version = "0.1.0"
+description = "Generate a set of claims from a paper, iteratively"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "langchain>=0.3.12",
+    "langchain-openai>=0.2.12",
+    "langgraph>=0.2.59",
+]
